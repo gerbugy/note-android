@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- 어플리케이션 -->
+    <string name="app_name">툭하면 메모</string>
+    <string name="app_info">애플리케이션 정보</string>
+    <string name="open_drawer_content_desc">open_drawer_content_desc</string>
+    <string name="close_drawer_content_desc">close_drawer_content_desc</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5295314606402898/6292952592</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <!-- 단어 -->
+    <string name="database">데이터베이스</string>
+    <string name="image">이미지</string>
+    <string name="confirm">확인</string>
+    <string name="delete">삭제</string>
+    <string name="setting">설정</string>
+    <string name="home">홈</string>
+    <string name="memo">메모</string>
+    <string name="choice">선택</string>
+    <string name="account">계정</string>
+    <string name="family">패밀리</string>
+    <string name="habit">습관</string>
+    <string name="search">검색</string>
+
+    <!-- 권한 -->
+    <string name="required_permissions">권한(%1$s)이 필요합니다</string>
+
+    <!-- 가져오기/내보내기 -->
+    <string name="import_from_device">가져오기</string>
+    <string name="import_from_device_fail">SD 카드에서 가져올 수 없습니다.</string>
+    <string name="import_from_device_success">가져왔습니다</string>
+    <string name="export_to_device">내보내기</string>
+    <string name="export_to_device_success">내보냈습니다</string>
+    <string name="export_to_device_fail">SD 카드로 내보낼 수 없습니다.</string>
+
+    <!-- 메모 -->
+    <string name="memo_add">새 메모</string>
+    <string name="memo_edit">메모 수정</string>
+    <string name="memo_view">메모 보기</string>
+    <string name="memo_delete_confirm">메모를 삭제하시겠습니까?</string>
+
+    <!-- 습관 -->
+    <string name="habit_app_name">툭하면 습관</string>
+    <string name="habit_package_name">com.gerbugy.habit</string>
+
+    <!-- 계정 -->
+    <string name="account_app_name">툭하면 계정</string>
+    <string name="account_package_name">com.gerbugy.account</string>
+</resources>

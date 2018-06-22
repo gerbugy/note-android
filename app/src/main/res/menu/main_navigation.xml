@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/database"
+        android:title="@string/database" />
+
+    <item
+        android:id="@+id/app_info"
+        android:title="@string/app_info" />
+
+    <item android:title="@string/family">
+        <menu>
+            <item
+                android:id="@+id/habit"
+                android:title="@string/habit_app_name" />
+            <item
+                android:id="@+id/account"
+                android:title="@string/account_app_name" />
+        </menu>
+    </item>
+</menu>

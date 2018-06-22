@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.gerbugy.note"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 18061600
+        versionName "18.06.16"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+
+    // 라이브러리
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // 프로젝트
+    // implementation project(path: ':library')
+
+    // 서포트
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:customtabs:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+
+    // 파이어베이스
+    implementation 'com.google.firebase:firebase-core:16.0.0'
+    implementation 'com.google.firebase:firebase-messaging:17.0.0'
+    implementation 'com.google.firebase:firebase-ads:15.0.1'
+
+    // 강성민
+    // implementation 'com.gerbugy.support.secure:support-secure:1.0@aar'
+}
+
+apply plugin: 'com.google.gms.google-services'
